@@ -166,3 +166,18 @@ a {
   height: 500px;
   object-fit:fill;
 }
+
+@media screen and (max-width: 768px) {
+  #intro-card {
+    max-width: 70%;
+  }
+  
+  .nav {
+    width: 45%;
+    max-width: none;
+  }
+  
+  #my-projects-header {
+    font-size: 1.5rem;
+  }
+}
