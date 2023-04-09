@@ -59,6 +59,7 @@ a {
   color: white;
   text-align: center;
   border-radius: 10px;
+  border: 2px dashed black;
 }
 
 #intro-card h1 {
@@ -147,8 +148,16 @@ a {
 }
 
 @media screen and (max-width: 768px) {
+  #hero-container {
+    height: 50rem;
+  }
   #intro-card {
     max-width: 70%;
+    border: 1px dashed black;
+  }
+
+  .nav-container {
+    height: 20rem;
   }
   
   .nav {
