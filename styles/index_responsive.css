@@ -121,6 +121,7 @@ a {
   gap: 2rem;
   justify-content: center;
   align-items: center;
+  grid-auto-flow: dense;
 }
 
 .project-card {
@@ -133,6 +134,10 @@ a {
   overflow: hidden;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
   background-color: #dd7e87;
+  transition: 0.5s;
+}
+.project-card:hover {
+  background-color: rgb(149, 123, 196);
 }
 
 .project-images {
