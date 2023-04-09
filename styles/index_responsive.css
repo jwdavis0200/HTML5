@@ -94,6 +94,7 @@ a {
   cursor: pointer;
   background-color: bisque;
   box-shadow: 5px 5px 1px 1px rgb(124, 72, 113);
+  color: black;
 }
 
 #role {
