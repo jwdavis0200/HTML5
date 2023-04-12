@@ -6,50 +6,98 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Johannes William Davis</title>
     <link rel="icon" href="./images/coder.ico"/>
-    <link rel="stylesheet" href="./styles/index_responsive.css"/>
-    <style>
-
-      </style>
+    <link rel="stylesheet" href="./styles/index.css"/>
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
 </head>
 <body>
     <section id="hero-container">
         <script src="https://kit.fontawesome.com/c9993dda8a.js" crossorigin="anonymous"></script>
         <div id="introduction-container">
-            <img id="hero-img" src="images/code-background.jpg" alt="A picture showing code" height="10%" width="100%">
+            <!-- <img id="hero-img" src="images/code-background.jpg" alt="A picture showing code" height="10%" width="100%"> -->
             <div id="intro-card">
-                <h2 id="name">Johannes William Davis</h2>
-                <h4 id="role">Software Engineer</h4>
-                <h3 id="about-me">About Me</h3>
-                <p id="intro-para">
-                    I am an undergraduate studying Bachelor of Computer Science at National University of Singapore (NUS).<br><br>
-                    I love to learn skills that makes life easier; <em>and there's no better way than to code!</em>
-                </p>
+                <h1 id="name">Hi there! I'm Johannes William Davis</h2>
+                <h4 id="role"><span id="verb"><em>aspiring </em></span>Software Engineer</h4>
+                <div class="nav-container">
+                    <div class="nav"><i class="fa-brands fa-github fa-beat"></i><a href="https://github.com/jwdavis0200" target="_blank"> Github</a></div>
+                    <div class="nav"><i class="fa-brands fa-linkedin-in fa-fade"></i><a href="https://www.linkedin.com/in/johannes-davis-b8149a1b6/" target="_blank"> LinkedIn</a></div>
+                    <div class="nav"><i class="fa-regular fa-address-card fa-flip"></i><a href="./contact.html"> Contact Me</a></div>
+                </div>
             </div>
         </div>
     </section>
     <section>
-        <div class="nav-container">
-                <div class="nav"><i class="fa-brands fa-github fa-beat"></i><a href="https://github.com/jwdavis0200" target="_blank"> Github</a></div>
-                <div class="nav"><i class="fa-brands fa-linkedin-in fa-fade"></i><a href="https://www.linkedin.com/in/johannes-davis-b8149a1b6/" target="_blank"> LinkedIn</a></div>
-                <div class="nav"><i class="fa-regular fa-address-card fa-flip"></i><a href="./contact.html"> Contact Me</a></div>
+        <div class="section-header">About Me</div>
+        <div id="about-me-card">
+            <div id="me-container">
+                <img id="me" src="images/me.jpg" alt="A beautiful picture of me!">
+            </div>
+            <div>
+                <p id="about-me-paragraph">
+                    I am a second-year computer science student at NUS with a passion for programming and automating workflows. I enjoy developing projects that simplify my daily tasks and increase productivity.<br>
+                    My eagerness to learn and strong problem-solving skills make me a valuable asset to any team, and I am excited to contribute to the success of your organization.<br><br>
+                    Beyond my technical skills, I am a highly motivated individual with a strong work ethic and a passion for learning. I am always eager to take on new challenges and push myself outside of my comfort zone. <br><br>
+                    In addition, I am a strong collaborator and enjoy working in team environments where I can learn from and contribute to others.    
+                </p>
+            </div>
         </div>
     </section>
     <section id="my-projects">
-            <div id="my-projects-header">My Projects</div>
-        <div id="project-container">
-            <div class="project-card">
-                <img class="project-images" src="images/image_gen_ai.jpg" alt="AI Img-Gen Site">
-                <a class="project-caption" href="pages/gen-app.html">Image Generation AI</a>
+            <div class="section-header">My Projects</div>
+            <div id="project-container">
+                <div class="project-card">
+                    <img class="project-images" src="images/image_gen_ai.jpg" alt="AI Img-Gen Site">
+                    <a class="project-caption" href="https://github.com/jwdavis0200/image-ai-gen">Image Generation AI</a>
+                </div>
+                <div class="project-card">
+                    <img class="project-images" src="images/duke.png" alt="TaskList Bot-Duke">
+                    <a class="project-caption" href="https://github.com/jwdavis0200/ip">Duke(TaskListBot)</a>
+                </div>
+                <div class="project-card">
+                    <img class="project-images" src="images/pupilist.jpg" alt="Tutor Asisstant-Pupilist">
+                    <a class="project-caption" href="https://github.com/jwdavis0200/tp">Pupilist(Tutor Assistant)</a>
+                </div>  
             </div>
-            <div class="project-card">
-                <img class="project-images" src="images/duke.png" alt="TaskList Bot-Duke">
-                <a class="project-caption" href="pages/duke.html">Duke(TaskListBot)</a>
-            </div>
-            <div class="project-card">
-                <img class="project-images" src="images/pupilist.jpg" alt="Tutor Asisstant-Pupilist">
-                <a class="project-caption" href="pages/pupilist.html">Pupilist(Tutor Assistant)</a>
-            </div>  
+    </section>
+    <section id="skill-section">
+        <div class="section-header">My Skills</div>
+        <div id="skills-grid">
+            <img src="images/css-3.png" alt="CSS 3 Logo" class="skill">
+            <img src="images/html-5.png" alt="HTML 5 Logo" class="skill">
+            <img src="images/js.png" alt="JavaScript Logo" class="skill">
+            <img src="images/java.png" alt="Java Logo" class="skill">
+            <img src="images/python.png" alt="Python Logo" class="skill">
+            <img src="images/r.png" alt="R Logo" class="skill">
+            <img src="images/typescript.png" alt="TypeScript Logo" class="skill">                   
         </div>
     </section>
+    <section>
+        <div class="section-header">My Past Experiences</div>
+        <div class="job-card">
+            <div class="job-container">
+                <img class="job-img" src="images/ing.png" alt="Image of ING">
+            </div>
+            <div class="job-card">
+                <p class="job-paragraph">
+                    <br>As a computer science student, I found this internship to be extremely valuable to my education and career aspirations.<br><br>
+                    While the role did not involve programming, it provided me with a unique opportunity to explore the rapidly-evolving field of fintech and gain hands-on experience working in a dynamic environment.<br> Through my responsibilities in industry research, due diligence, and analysis, I was able to deepen my knowledge of the fintech landscape and understand how technology is changing the way we think about banking and finance.
+
+                    <br>In addition, I was able to apply my technical skills in a practical setting, specifically in the areas of risk assessment and proof of concept validation.<br>These experiences helped me to hone my critical thinking and problem-solving abilities, which will undoubtedly be valuable assets as I continue my studies in computer science.
+                    <br><br>Overall, this internship provided me with a well-rounded understanding of the fintech industry and how technology is shaping the future of banking. <br><br> I believe that this experience has made me a more well-rounded and valuable candidate in the tech industry, and I am excited to continue exploring the intersection of technology and finance in my future career.
+                </p>
+            </div>
+        </div>
+        <div class="job-card">
+            <div class="job-container">
+                <img class="job-img" src="images/gss.jpg" alt="Image of GSS">
+            </div>
+            <div class="job-card">
+                <p class="job-paragraph">
+                    During my internship at Goldskye Engineering as a Sales Coordinator, I effectively managed sales activities and proposed solutions to improve operations and sales. <br><br>Despite being a computer science student, I quickly adapted to the fast-paced working environment and learned about engineering to deliver work efficiently. Additionally, I displayed excellent teamwork skills by working with colleagues of various backgrounds and age groups to maintain business operations during the pandemic. <br><br>
+                    The internship has enhanced my project management skills and adaptability in a fast-paced working environment, which will be valuable in my future career as a tech professional.
+                </p>
+            </div>
+        </div>
+    </section>
+    
 </body>
 </html>
