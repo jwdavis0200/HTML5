@@ -1,7 +1,7 @@
 /* Define Font */
 @font-face {
   font-family: 'Open Sans';
-  src: url("../fonts/OpenSans-VariableFont_wdth\,wght.ttf");
+  src: url("../fonts/OpenSans-VariableFont_wdth,wght.ttf");
 }
 
 /* Reset Styles */
@@ -15,16 +15,16 @@
 body {
   display: fixed;
   font-family: 'Open Sans', sans-serif;
-  background-image: linear-gradient(45deg, #DECBA4, #3E5151); /* Updated */
+  background-image: linear-gradient(to right,#8c9394, #09363e);
   min-height: 100vh;
   overflow-x: hidden;
-  color: black;
+  color: white;
 }
 
 /* Heading Styles */
 h1 {
   border: 3px solid black;
-  background-color: #320e9e; /* Updated */
+  background-color: #3c4c4f; /* Updated */
 }
 h3 {
   border: solid;
