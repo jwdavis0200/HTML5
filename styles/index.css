@@ -15,10 +15,10 @@
 body {
   display: fixed;
   font-family: 'Open Sans', sans-serif;
-  background-image: linear-gradient(#5e1a54, #000000); /* Updated */
+  background-image: linear-gradient(45deg, #DECBA4, #3E5151); /* Updated */
   min-height: 100vh;
   overflow-x: hidden;
-  color: white;
+  color: black;
 }
 
 /* Heading Styles */
@@ -70,17 +70,6 @@ a {
 #name {
   margin-bottom: 1rem;
   font-size: 2.5rem;
-}
-
-
-section-header {
-  font-weight: bold;
-  font-size: 2rem;
-  margin-bottom: 2rem;
-  color: #8E44AD; /* Updated */
-  animation-name: slide-down;
-  animation-duration: 1.5s;
-  animation-timing-function: ease-out;
 }
 
 #me-container {
@@ -184,7 +173,7 @@ section-header {
   font-weight: bold;
   font-size: 2rem;
   margin-bottom: 2rem;
-  color: #8E44AD; /* Updated */
+  color: #000000; /* Updated */
   animation-name: slide-down;
   animation-duration: 1.5s;
   animation-timing-function: ease-out;
@@ -298,13 +287,18 @@ section-header {
   #hero-container {
     height: 50rem;
   }
+  #hero-container {
+    height: 70rem;
+    width: auto;
+  }
+  
   #intro-card {
     max-width: 70%;
   }
   #me {
     flex-grow: 0.1;
-    width: 50vw;
-    height: 40vh;
+    width: 25vw;
+    height: auto;
   }
 
   #me-container {
