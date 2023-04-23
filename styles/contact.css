@@ -54,6 +54,21 @@ input[type="text"]::placeholder {
   font-family: "Open-sans";
 }
 
+textarea {
+  font-family: "Open-sans";
+  background-color: #696996;
+}
+
+textarea::placeholder {
+  color: rgb(184, 168, 168);
+  font-family: "Open-sans";
+}
+
+textarea:focus {
+  outline: none;
+  box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.3);
+  background-color: azure;
+}
 input[type="text"]:focus {
   outline: none;
   box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.3);

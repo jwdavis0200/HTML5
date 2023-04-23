@@ -18,9 +18,9 @@
         window.onload = function sendEmail(e) {
           e.preventDefault();
       
-          const fromEmail = document.querySelector('input[for="from"]').value;
-          const subject = document.querySelector('input[for="subject"]').value;
-          const content = document.querySelector('input[for="content"]').value;
+          const fromEmail = document.querySelector('input[name="from"]').value;
+          const subject = document.querySelector('input[name="subject"]').value;
+          const content = document.querySelector('textarea[name="content"]').value;
       
           const params = {
             from_email: fromEmail,
@@ -59,7 +59,7 @@
         </div>
         <div>
             <label for="content"><h3>Content</h3></label><br>
-            <input type="text" name="content" placeholder="What would you like to talk about?" style="height: 300px;width: 300px">
+            <textarea type="text" name="content" placeholder="What would you like to talk about?" style="height: 300px;width: 300px"></textarea>
         </div>
         <div>
             <button id="send-button">Send!</button>
