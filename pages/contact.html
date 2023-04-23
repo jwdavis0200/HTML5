@@ -15,7 +15,7 @@
 <body>
     <script>
         // Create a function to handle form submission
-        function sendEmail(e) {
+        window.onload = function sendEmail(e) {
           e.preventDefault();
       
           const fromEmail = document.querySelector('input[for="from"]').value;
@@ -51,15 +51,15 @@
     <section id="mailbox-container">
         <div>
             <label for="from"><h3>Your e-mail</h3></label>
-            <input type="text" for="from" placeholder="Your e-mail here!">
+            <input type="text" name="from" placeholder="Your e-mail here!">
         </div>
         <div>
             <label for="subject"><h3>Subject</h3></label>
-            <input type="text" for="subject" placeholder="What about?">
+            <input type="text" name="subject" placeholder="What about?">
         </div>
         <div>
             <label for="content"><h3>Content</h3></label><br>
-            <input type="text" for="content" placeholder="What would you like to talk about?" style="height: 300px;width: 300px">
+            <input type="text" name="content" placeholder="What would you like to talk about?" style="height: 300px;width: 300px">
         </div>
         <div>
             <button id="send-button">Send!</button>
