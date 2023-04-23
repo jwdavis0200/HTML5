@@ -13,35 +13,6 @@
     </script>
 </head>
 <body>
-    <script>
-        // Create a function to handle form submission
-        window.onload = function sendEmail(e) {
-          e.preventDefault();
-      
-          const fromEmail = document.querySelector('input[name="from"]').value;
-          const subject = document.querySelector('input[name="subject"]').value;
-          const content = document.querySelector('textarea[name="content"]').value;
-      
-          const params = {
-            from_email: fromEmail,
-            to_email: 'jwdavis0200@gmail.com',
-            subject: subject,
-            body: content
-          };
-      
-          emailjs.send('service_ebnwei8', 'template_4tx1sij', params)
-            .then(function(response) {
-              alert('Email sent successfully!');
-            })
-            .catch(function(error) {
-              alert('Failed to send email: ' + error);
-            });
-        }
-      
-        // Attach the sendEmail function to a button or a form submission event
-        const submitButton = document.querySelector('#send-button');
-        submitButton.addEventListener('click', sendEmail);
-      </script>
     <title>Get in touch!</title>
     <section id="header-container">
         <h1>
@@ -63,6 +34,35 @@
         </div>
         <div>
             <button id="send-button">Send!</button>
+            <script>
+                // Create a function to handle form submission
+                function sendEmail(e) {
+                    e.preventDefault();
+                
+                    const fromEmail = document.querySelector('input[name="from"]').value;
+                    const subject = document.querySelector('input[name="subject"]').value;
+                    const content = document.querySelector('textarea[name="content"]').value;
+                
+                    const params = {
+                        from_email: fromEmail,
+                        to_email: 'jwdavis0200@gmail.com',
+                        subject: subject,
+                        body: content
+                    };
+                
+                    emailjs.send('service_ebnwei8', 'template_4tx1sij', params)
+                        .then(function(response) {
+                        alert('Email sent successfully!');
+                        })
+                        .catch(function(error) {
+                        alert('Failed to send email: ' + error);
+                        });
+                }
+              
+                // Attach the sendEmail function to a button or a form submission event
+                const submitButton = document.querySelector('#send-button');
+                submitButton.addEventListener('click', sendEmail);
+              </script>
         </div>
     </section>
     <section id="social-container">
