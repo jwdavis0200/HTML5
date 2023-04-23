@@ -1,0 +1,71 @@
+@font-face {
+  font-family: 'Open Sans';
+  src: url("../fonts/OpenSans-VariableFont_wdth,wght.ttf");
+}
+
+body {
+  display: fixed;
+  font-family: 'Open Sans', sans-serif;
+  background-image: linear-gradient(to right,#8c9394, #09363e);
+  min-height: 100vh;
+  overflow-x: hidden;
+  color: white;
+}
+
+h1 {
+  border: 3px solid black;
+  background-color: #3c4c4f; /* Updated */
+}
+h3 {
+  border: solid;
+  background-color: #4C4C6D; /* Updated */
+}
+#mailbox-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+#mailbox-container div {
+  margin-bottom: 20px;
+}
+
+#mailbox-container > label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+input[type="text"] {
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.1);
+  width: 300px;
+  max-width: 100%;
+  font-size: 16px;
+  background-color: #696996;
+}
+
+input[type="text"]::placeholder {
+  color: rgb(184, 168, 168);
+  font-family: "Open-sans";
+}
+
+input[type="text"]:focus {
+  outline: none;
+  box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.3);
+  background-color: azure;
+}
+
+#send-button {
+  border: solid white;
+  background-color: #4C4C6D;
+  color: white;
+  width: 10vh;
+  height:3vh;
+  font-family: "Open-sans";
+  font-size: larger;
+}
