@@ -248,10 +248,10 @@ a {
   font-size: 1.2rem;
   color: white;
 }
-#skill-section {
+#technical-skill-section {
   margin-bottom: 2rem;
 }
-#skills-grid {
+#technical-skills-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   column-gap: 2rem;
@@ -259,7 +259,7 @@ a {
   justify-items: center;
 }
 
-.skill {
+.technical-skill {
   width: auto;
   height: 15vh;
 }
