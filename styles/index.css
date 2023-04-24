@@ -201,18 +201,17 @@ a {
   flex-direction: column;
   align-items: center;
   text-align: center;
-  background-color: white;
   border-radius: 10px;
   overflow: hidden;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
-  background-color: #706fb4; /* Updated */
+  background-color: #000000;
   transition: 0.5s;
   animation-duration: 1.5s;
   animation-timing-function: ease-out;
 }
 
 .project-card:hover {
-  background-color: #957BC4;
+  background-color: #3cb4eb27;
   box-shadow: 5px 5px 1px 1px #7C4871;
   animation-name: shake;
   animation-duration: 0.8s;
@@ -247,7 +246,7 @@ a {
   text-align: center;
   padding: 1rem;
   font-size: 1.2rem;
-  color: black;
+  color: white;
 }
 #skill-section {
   margin-bottom: 2rem;
