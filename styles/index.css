@@ -280,6 +280,7 @@ a {
 .job-paragraph {
   font-size: 1.2rem;
   font-style: inherit;
+  padding-left: 5vw;
 }
 
 /* Responsive Styles */
