@@ -80,7 +80,8 @@ input[type="text"]:focus {
   background-color: #4C4C6D;
   color: white;
   width: 10vh;
-  height:3vh;
+  height:5vh;
   font-family: "Open-sans";
   font-size: larger;
+  box-sizing: border-box;
 }
