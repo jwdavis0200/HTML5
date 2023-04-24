@@ -35,13 +35,13 @@
         <div>
             <button id="send-button">Send!</button>
             <script>
-                function sendEmail(e) {
+                function sendEmail(buttonElement, e) {
                     e.preventDefault();
-                
+                    buttonElement.classList.add('green');
                     const fromEmail = document.querySelector('input[name="from"]').value;
                     const subject = document.querySelector('input[name="subject"]').value;
                     const content = document.querySelector('textarea[name="content"]').value;
-                
+                    
                     const params = {
                         from_email: fromEmail,
                         to_email: 'jwdavis0200@gmail.com',
@@ -59,7 +59,9 @@
                 }
               
                 const submitButton = document.querySelector('#send-button');
-                submitButton.addEventListener('click', sendEmail);
+                submitButton.addEventListener('click', function (e) {
+                    sendEmail(submitButton, e)
+                });
               </script>
         </div>
     </section>

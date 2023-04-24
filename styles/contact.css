@@ -55,8 +55,15 @@ input[type="text"]::placeholder {
 }
 
 textarea {
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
   font-family: "Open-sans";
   background-color: #696996;
+  box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.1);
+  width: 300px;
+  max-width: 100%;
+  font-size: 16px;
 }
 
 textarea::placeholder {
@@ -79,6 +86,17 @@ input[type="text"]:focus {
   border: solid white;
   background-color: #4C4C6D;
   color: white;
+  width: 10vh;
+  height:5vh;
+  font-family: "Open-sans";
+  font-size: larger;
+  box-sizing: border-box;
+}
+
+.green {
+  background-color: green;
+  border: solid black;
+  color: black;
   width: 10vh;
   height:5vh;
   font-family: "Open-sans";
