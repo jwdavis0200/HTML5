@@ -37,7 +37,7 @@
             <script>
                 function sendEmail(buttonElement, e) {
                     e.preventDefault();
-                    document.getElementById('#send-button').classList.add('green')
+                    document.getElementById('send-button').classList.add('clicked-button');
                     const fromEmail = document.querySelector('input[name="from"]').value;
                     const subject = document.querySelector('input[name="subject"]').value;
                     const content = document.querySelector('textarea[name="content"]').value;

@@ -82,7 +82,8 @@ input[type="text"]:focus {
   background-color: azure;
 }
 
-#send-button {
+button {
+  border-radius:5px;
   border: solid white;
   background-color: #4C4C6D;
   color: white;
@@ -93,8 +94,9 @@ input[type="text"]:focus {
   box-sizing: border-box;
 }
 
-.green {
-  background-color: green;
+.clicked-button {
+  border-radius: 5px;
+  background-color: rgb(148, 94, 229);
   border: solid black;
   color: black;
   width: 10vh;
