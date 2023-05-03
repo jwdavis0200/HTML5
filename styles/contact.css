@@ -88,7 +88,7 @@ input[type="text"] {
   width: 300px;
   max-width: 100%;
   font-size: 16px;
-  background-color: #b8913d;
+  background-color: #94742e;
 }
 
 input[type="text"]::placeholder {
@@ -101,7 +101,7 @@ textarea {
   border-radius: 5px;
   border: none;
   font-family: "Open-sans";
-  background-color: #9e76df91;
+  background-color: #94742e;
   box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.1);
   width: 300px;
   max-width: 100%;
