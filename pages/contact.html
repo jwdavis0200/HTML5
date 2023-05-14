@@ -41,8 +41,17 @@
             <textarea type="text" name="content" placeholder="Write anything!" style="height: 300px;width: 300px" required></textarea>
         </div>
         <div>
-            <button id="send-button">Send!</button>
+            <button id="send-button" onmouseover="changeSendColor">Send!</button>
             <script>
+                const sendButton = document.getElementById("send-button");
+                sendButton.addEventListener("mouseover", function() {
+                this.style.backgroundColor = "#33b054";
+                });
+
+                sendButton.addEventListener("mouseout", function() {
+                this.style.backgroundColor = "#4C4C6D";
+                });
+            
                 function sendEmail(buttonElement, e) {
                     e.preventDefault();
                     document.getElementById('send-button').classList.add('clicked-button');
