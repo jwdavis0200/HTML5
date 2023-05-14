@@ -1,55 +1,149 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Johannes William Davis</title>
-    <link rel="icon" href="./images/coder.ico"/>
-    <link rel="stylesheet" href="./styles/index_responsive.css"/>
-    <style>
-
-      </style>
+    <link rel="icon" href="./images/coder.ico" />
+    <link rel="stylesheet" href="./styles/index.css" />
+    <script src="scripts/index.js"></script>
 </head>
+
 <body>
     <section id="hero-container">
         <script src="https://kit.fontawesome.com/c9993dda8a.js" crossorigin="anonymous"></script>
         <div id="introduction-container">
-            <img id="hero-img" src="images/code-background.jpg" alt="A picture showing code" height="10%" width="100%">
+            <!-- <img id="hero-img" src="images/code-background.jpg" alt="A picture showing code" height="10%" width="100%"> -->
             <div id="intro-card">
-                <h2 id="name">Johannes William Davis</h2>
-                <h4 id="role">Software Engineer</h4>
-                <h3 id="about-me">About Me</h3>
-                <p id="intro-para">
-                    I am an undergraduate studying Bachelor of Computer Science at National University of Singapore (NUS).<br><br>
-                    I love to learn skills that makes life easier; <em>and there's no better way than to code!</em>
+                <h1 id="name">Hi there! I'm Johannes William Davis</h2>
+                    <h4 id="role"><span id="verb"><em>aspiring </em></span>Software Engineer</h4>
+                    <div class="nav-container">
+                        <div class="nav"><i class="fa-brands fa-github fa-beat"></i><a
+                                href="https://github.com/jwdavis0200" target="_blank"> Github</a></div>
+                        <div class="nav"><i class="fa-brands fa-linkedin-in fa-fade"></i><a
+                                href="https://www.linkedin.com/in/johannes-davis-b8149a1b6/" target="_blank">
+                                LinkedIn</a></div>
+                        <div class="nav"><i class="fa-regular fa-address-card fa-flip"></i><a href="./pages/contact.html">
+                                Contact Me</a></div>
+                    </div>
+            </div>
+        </div>
+    </section>
+    <section id="about-me-container">
+        <div class="section-header">About Me</div>
+        <div id="about-me-card">
+            <div id="me-container">
+                <img id="me" src="images/me.jpg" alt="A beautiful picture of me!">
+            </div>
+            <div>
+                <p id="about-me-paragraph">
+                    I am a second-year computer science student at NUS with a passion for programming and automating
+                    workflows. I enjoy developing projects that simplify my daily tasks and increase productivity.<br><br>
+                    My eagerness to learn and strong problem-solving skills make me a valuable asset to any team, and I
+                    am excited to contribute to the success of your organization.<br><br>
+                    Beyond my technical skills, I am a highly motivated individual with a strong work ethic and a
+                    passion for learning. I am always eager to take on new challenges and push myself outside of my
+                    comfort zone. <br><br>
+                    In addition, I am a strong collaborator and enjoy working in team environments where I can learn
+                    from and contribute to others.
                 </p>
             </div>
         </div>
     </section>
-    <section>
-        <div class="nav-container">
-                <div class="nav"><i class="fa-brands fa-github fa-beat"></i><a href="https://github.com/jwdavis0200" target="_blank"> Github</a></div>
-                <div class="nav"><i class="fa-brands fa-linkedin-in fa-fade"></i><a href="https://www.linkedin.com/in/johannes-davis-b8149a1b6/" target="_blank"> LinkedIn</a></div>
-                <div class="nav"><i class="fa-regular fa-address-card fa-flip"></i><a href="./contact.html"> Contact Me</a></div>
-        </div>
-    </section>
     <section id="my-projects">
-            <div id="my-projects-header">My Projects</div>
+        <div class="section-header">My Projects</div>
         <div id="project-container">
             <div class="project-card">
                 <img class="project-images" src="images/image_gen_ai.jpg" alt="AI Img-Gen Site">
-                <a class="project-caption" href="pages/gen-app.html">Image Generation AI</a>
+                <a class="project-caption" href="https://github.com/jwdavis0200/image-ai-gen">Image Generation AI</a>
             </div>
             <div class="project-card">
                 <img class="project-images" src="images/duke.png" alt="TaskList Bot-Duke">
-                <a class="project-caption" href="pages/duke.html">Duke(TaskListBot)</a>
+                <a class="project-caption" href="https://github.com/jwdavis0200/ip">Duke(TaskListBot)</a>
             </div>
             <div class="project-card">
                 <img class="project-images" src="images/pupilist.jpg" alt="Tutor Asisstant-Pupilist">
-                <a class="project-caption" href="pages/pupilist.html">Pupilist(Tutor Assistant)</a>
-            </div>  
+                <a class="project-caption" href="https://github.com/jwdavis0200/tp">Pupilist(Tutor Assistant)</a>
+            </div>
+            <div class="project-card">
+                <img class="project-images" src="images/ava.png" alt="AI Chatbot-Ava">
+                <a class="project-caption" href="https://github.com/jwdavis0200/Ava">Ava(AI Chatbot++)</a>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="section-header">My Past Experiences</div>
+        <div class="job-card">
+            <div class="job-container">
+                <img class="job-img" src="images/ing.png" alt="Image of ING">
+            </div>
+            <div class="job-card">
+                <p>
+                    Company: <span style="color: #ffa704">ING</span><br><br>
+                    Role: <span style="color: #ffa704">Fintech Analyst</span><br><br>
+                    Duration: <span style="color: #ffa704">Dec 2022 - May 2023</span>
+              </p>
+                <div>
+                    <ul class="job-paragraph">
+                        <li> Conducted comprehensive industry research and due diligence on fintech startups and ecosystems.</li>
+                        <li> Collaborated on the creation of presentation materials, such as pitch books and marketing teasers.</li>
+                        <li> Managed and maintained essential team reports, including work-in-progress, marketing, and activity trackers.</li>
+                        <li> Assisted in organizing team workshops, meetings, and both internal and external events.</li>
+                        <li> Conducted risk and technical assessments for innovation projects at various stages, including Proof of Concept validation, Pilot, and Scale.</li>
+                        <li> Effectively communicated and partnered with internal and external stakeholders.</li>
+                        <li> Provided general assistance to Fintech team members.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="job-card">
+            <div class="job-container">
+                <img class="job-img" src="images/gss.png" alt="Image of GSS">
+            </div>
+            <div class="job-card">
+                <p>
+                    Company: <span style="color:rgba(255, 217, 0, 0.696)">Goldskye Systems</span><br><br>
+                    Role: <span style="color:rgba(255, 217, 0, 0.696)">Sales Ops Intern</span><br><br>
+                    Duration: <span style="color:rgba(255, 217, 0, 0.696)">February 2021 - August 2021</span>
+                </p>
+                <div>
+                    <ul class="job-paragraph">
+                        <li> Managed various sales activities, project management tasks, and client deals.</li>
+                        <li> Developed and proposed data-driven strategies to enhance the efficiency of operations management and sales.</li>
+                        <li> Adapted quickly to a new industry and fast-paced work environment.</li>
+                        <li> Collaborated effectively with coworkers from diverse backgrounds and age groups.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="technical-skill-section">
+        <div class="section-header">My Technical Skills</div>
+        <div id="technical-skills-grid">
+            <img src="images/css-3.png" alt="CSS 3 Logo" class="technical-skill">
+            <img src="images/html-5.png" alt="HTML 5 Logo" class="technical-skill">
+            <img src="images/js.png" alt="JavaScript Logo" class="technical-skill">
+            <img src="images/java.png" alt="Java Logo" class="technical-skill">
+            <img src="images/python.png" alt="Python Logo" class="technical-skill">
+            <img src="images/r.png" alt="R Logo" class="technical-skill">
+            <img src="images/typescript.png" alt="TypeScript Logo" class="technical-skill">
+        </div>
+    </section>
+    <section id="non-technical-skill-section">
+        <div class="section-header">My Non-Technical Skills</div>
+        <div>
+            <ul id="non-technical-skills">
+                <li><br><strong>Teamwork</strong></li>
+                <li><br><strong>Communication</strong></li>
+                <li><br><strong>Adaptability</strong></li>
+                <li><br><strong>Critical thinking and problem-solving</strong></li>
+                <li><br><strong>Negotiation</strong></li>
+                <li><br><strong>Relationship management</strong></li>
+            </ul>
         </div>
     </section>
 </body>
+
 </html>

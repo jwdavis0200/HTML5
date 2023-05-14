@@ -1,0 +1,149 @@
+@font-face {
+  font-family: 'Open Sans';
+  src: url("../fonts/OpenSans-VariableFont_wdth,wght.ttf");
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: fixed;
+  font-family: 'Open Sans', sans-serif;
+  background-image: linear-gradient(to right,#8c9394, #09363e);
+  min-height: 100vh;
+  overflow-x: hidden;
+  color: white;
+}
+
+h1 {
+  border: 3px solid black;
+  background-color: #3c4c4f;
+  padding-top: 3vh;
+  font-size: 2rem;
+  text-align: center;
+  height: 10vh;
+}
+h3 {
+  border: solid;
+  background-color: #4C4C6D;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.nav {
+  background-color: rgba(31, 1, 1, 0.5);
+  width: 25%;
+  max-width: 300px;
+  margin: 1rem;
+  padding: 1rem;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  transition: 0.2s;
+  animation-duration: 0.8s;
+  animation-timing-function: ease-out;
+}
+
+.nav:hover {
+  cursor: pointer;
+  background-color: rgb(134, 116, 93);
+  box-shadow: 5px 5px 1px 1px #7C4871;
+  color: black;
+  animation-name: pulse;
+  animation-duration: 0.8s;
+  animation-timing-function: ease-out;
+  animation-iteration-count: infinite;
+}
+
+
+#mailbox-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+#mailbox-container div {
+  margin-bottom: 20px;
+}
+
+#mailbox-container > label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+input[type="text"] {
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.1);
+  width: 300px;
+  max-width: 100%;
+  font-size: 16px;
+  background-color:  #008080;
+}
+
+input[type="text"]::placeholder {
+  color: rgb(0, 0, 0);
+  font-family: "Open-sans";
+}
+
+textarea {
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  font-family: "Open-sans";
+  background-color:  #008080;
+  box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.1);
+  width: 300px;
+  max-width: 100%;
+  font-size: 16px;
+}
+
+textarea::placeholder {
+  color: rgb(0, 0, 0);
+  font-family: "Open-sans";
+}
+
+textarea:focus {
+  outline: none;
+  box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.3);
+  background-color: azure;
+}
+input[type="text"]:focus {
+  outline: none;
+  box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.3);
+  background-color: azure;
+}
+
+button {
+  border-radius:5px;
+  border: solid white;
+  background-color: #4C4C6D;
+  color: white;
+  width: 10vh;
+  height:5vh;
+  font-family: "Open-sans";
+  font-size: larger;
+  box-sizing: border-box;
+}
+
+.clicked-button {
+  border-radius: 5px;
+  background-color: rgb(148, 94, 229);
+  border: solid black;
+  color: black;
+  width: 10vh;
+  height:5vh;
+  font-family: "Open-sans";
+  font-size: larger;
+  box-sizing: border-box;
+}
