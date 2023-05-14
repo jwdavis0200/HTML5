@@ -92,7 +92,7 @@ input[type="text"] {
 }
 
 input[type="text"]::placeholder {
-  color: rgb(0, 0, 0);
+  color: rgb(83, 79, 79);
   font-family: "Open-sans";
 }
 
@@ -109,7 +109,7 @@ textarea {
 }
 
 textarea::placeholder {
-  color: rgb(0, 0, 0);
+  color: rgb(83, 79, 79);
   font-family: "Open-sans";
 }
 
