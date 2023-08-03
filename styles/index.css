@@ -1,6 +1,6 @@
 /* Define Font */
 @font-face {
-  font-family: 'Open Sans';
+  font-family: "Open Sans";
   src: url("../fonts/OpenSans-VariableFont_wdth,wght.ttf");
 }
 
@@ -14,8 +14,8 @@
 /* Body Styles */
 body {
   display: fixed;
-  font-family: 'Open Sans', sans-serif;
-  background-image: linear-gradient(to right,#8c9394, #09363e);
+  font-family: "Open Sans", sans-serif;
+  background-image: linear-gradient(to right, #8c9394, #09363e);
   min-height: 100vh;
   overflow-x: hidden;
   color: white;
@@ -28,7 +28,7 @@ h1 {
 }
 h3 {
   border: solid;
-  background-color: #4C4C6D; /* Updated */
+  background-color: #4c4c6d; /* Updated */
 }
 
 /* Link Styles */
@@ -73,7 +73,7 @@ a {
 }
 
 #me-container {
-  border:2px dashed rgba(9, 75, 92, 0.664);
+  border: 2px dashed rgba(9, 75, 92, 0.664);
   height: fit-content;
 }
 #me {
@@ -134,7 +134,7 @@ a {
 .nav:hover {
   cursor: pointer;
   background-color: rgb(134, 116, 93);
-  box-shadow: 5px 5px 1px 1px #7C4871;
+  box-shadow: 5px 5px 1px 1px #7c4871;
   color: black;
   animation-name: pulse;
   animation-duration: 0.8s;
@@ -198,6 +198,7 @@ a {
 }
 .project-card {
   display: flex;
+  height: 100%;
   flex-direction: column;
   align-items: center;
   text-align: center;
@@ -212,7 +213,7 @@ a {
 
 .project-card:hover {
   background-color: #3cb4eb27;
-  box-shadow: 5px 5px 1px 1px #7C4871;
+  box-shadow: 5px 5px 1px 1px #7c4871;
   animation-name: shake;
   animation-duration: 0.8s;
   animation-timing-function: ease-out;
@@ -238,7 +239,7 @@ a {
 
 .project-images {
   width: 100%;
-  height: auto;
+  height: 300px;
   object-fit: cover;
   max-height: 300px;
 }
@@ -289,43 +290,41 @@ a {
   margin: 0;
   font-size: 3vw;
   grid-template-columns: repeat(3, auto);
-  grid-template-rows:auto;
+  grid-template-rows: auto;
 }
 
 #non-technical-skills * {
   box-sizing: border-box;
   height: 20vh;
   width: 20vw;
-  font-family: 'Open-sans';
+  font-family: "Open-sans";
   font-size: 2rem;
 }
 
 #non-technical-skills li:nth-child(1)::before {
-  content: '💪';
-  padding-right:0.5em;
+  content: "💪";
+  padding-right: 0.5em;
 }
 #non-technical-skills li:nth-child(2)::before {
-  content: '💬';
-  padding-right:0.5em;
+  content: "💬";
+  padding-right: 0.5em;
 }
 #non-technical-skills li:nth-child(3)::before {
-  content: '🔌';
-  padding-right:0.5em;
+  content: "🔌";
+  padding-right: 0.5em;
 }
 #non-technical-skills li:nth-child(4)::before {
-  content: '🤔';
-  padding-right:0.5em;
+  content: "🤔";
+  padding-right: 0.5em;
 }
 #non-technical-skills li:nth-child(5)::before {
-  content: '😊';
-  padding-right:0.5em;
+  content: "😊";
+  padding-right: 0.5em;
 }
 #non-technical-skills li:nth-child(6)::before {
-  content: '🤗';
-  padding-right:0.5em;
+  content: "🤗";
+  padding-right: 0.5em;
 }
-
-
 
 /* Responsive Styles */
 @media screen and (max-width: 768px) {
@@ -336,7 +335,7 @@ a {
     height: 70rem;
     width: auto;
   }
-  
+
   #intro-card {
     max-width: 70%;
   }
@@ -347,7 +346,7 @@ a {
   }
 
   #me-container {
-    border:1px dashed plum;
+    border: 1px dashed plum;
   }
   #about-me-paragraph {
     font-size: 0.6rem;
