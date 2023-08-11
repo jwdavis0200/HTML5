@@ -197,6 +197,7 @@ a {
   grid-auto-flow: dense;
 }
 .project-card {
+  position: relative;
   display: flex;
   height: 100%;
   flex-direction: column;
@@ -215,10 +216,27 @@ a {
   background-color: #3cb4eb27;
   box-shadow: 5px 5px 1px 1px #7c4871;
   animation-name: shake;
-  animation-duration: 0.8s;
+  animation-duration: 0.7s;
   animation-timing-function: ease-out;
-  animation-iteration-count: infinite;
+  animation-iteration-count: 1;
 }
+
+.popup {
+  position: absolute;
+  background-color: rgb(229, 233, 219);
+  width: 100%;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  border-radius: 0.5rem;
+}
+
+.popup p {
+  color: #000000;
+  text-align: justify;
+  font-size: 12px;
+  padding: 10px;
+}
+
 @keyframes shake {
   0% {
     transform: translateX(0);
