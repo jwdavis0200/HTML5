@@ -293,12 +293,30 @@ a {
   flex-direction: row;
   column-gap: 20px;
   padding-bottom: 3vh;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 100%;
+}
+
+.job-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  flex: 1;
+}
+
+.job-info > p,
+.job-info > ul {
+  margin: 0;
+  padding: 0;
 }
 
 .job-paragraph {
+  width: 90%;
   font-size: 1.2rem;
   font-style: inherit;
   padding-left: 5vw;
+  text-align: left;
 }
 
 #non-technical-skills {
